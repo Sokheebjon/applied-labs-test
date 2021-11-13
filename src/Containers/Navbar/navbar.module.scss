@@ -1,0 +1,33 @@
+.navbar {
+  background: #fff;
+  text-transform: uppercase;
+
+  .brand {
+    color: black;
+    font-weight: 750;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .brand {
+      font-size: 23px;
+    }
+
+  }
+
+  .nav-link {
+    letter-spacing: 0.175em;
+    line-height: 140%;
+  }
+
+  .toggleButton {
+    border: none;
+    outline: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.card {
+  font-family: Oswald, serif;
+  line-height: 168%;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  .title {
+    color: #000000;
+  }
+
+  .price {
+    color: #353535;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+}
